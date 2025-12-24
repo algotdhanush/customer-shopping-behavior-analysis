@@ -56,7 +56,7 @@ from sqlalchemy import create_engine
 from urllib.parse import quote_plus
 
 username = "root"
-password = quote_plus("Cqhm@ncc9")   # <-- encode special chars like @
+password = quote_plus("your@password")   # <-- encode special chars like @
 host = "127.0.0.1"
 port = 3306
 database = "Customer_Shopping"
@@ -70,3 +70,4 @@ with engine.connect() as conn:
 df.to_sql("customers", engine, if_exists="replace", index=False)
 result = pd.read_sql("SELECT * FROM customers", engine)
 print(result.head(10))
+
