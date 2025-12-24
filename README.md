@@ -1,6 +1,5 @@
 # customer-shopping-behavior-analysis
 Customer shopping behavior analysis using Python, SQL, and Power BI.
-# Customer Shopping Behavior Analysis
 
 ## Project Overview
 This project analyzes customer shopping behavior using Python, SQL, and Power BI.  
